@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Hero Section */
+.hero{
+    background-color:rgb(255,212,125);
+    height:70vh;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 46%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+}
+.navbar-brand{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.image-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 20%;
+}
+.hero li a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.hero li a:hover{
+    color: white;
+    border-bottom: 3px black solid;
+}
+.banner{
+    margin: 80px 80px;
+}
+.banner h1{
+    font-size: 70px;
+}
+.banner .button{
+    color: black;
+    background-color: rgb(255,107,108);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+/* features Section */
+.features{
+    margin: 50px auto;
+    width: 80vw;
+}
+.features-title{
+    width: 45vw;
+    text-align: center;
+    margin: 0 auto;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+.feature-card{
+    text-align: center;
+    cursor: pointer;
+}
+.feature-card-img{
+    height: 100px;
+    width: 100px;
+}
+.confessions{
+    background-color: rgb(255,107,108);
+    height: 80vh;
+}
+.confessions-title{
+    margin: 0 150px;
+    padding:80px;
+}
+.confessions-title h3{
+    font-weight: 700;
+}
+.tracking{
+    background-color: hsla(236, 85%, 29%, 0.76);
+    height: 45vh;
+    
+}
+.track{
+    margin: 0 100px;
+    padding-top: 50px;
+}
+.track h3{
+    font-weight: 700;
+}
+.footer{
+    background-color: black;
+    height: 40vh;
+}
+.links{
+    display: flex;
+    margin: 0 100px;
+    padding-top: 20px;
+}
+.links a{
+    margin:0 10px;
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: green;
+}
+@media only screen and (max-width:600px){
+    .hero{
+        background-color:rgb(255,212,125);
+        height:80vh;
+        width: 100vw;
+        -webkit-clip-path: polygon(0 0, 100% 0, 100% 46%, 0 100%);
+        clip-path: polygon(0 0, 100% 0, 100% 86%, 0 100%);
+    }
+    .banner{
+        margin: 100px 60px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .features{
+        margin: 50px auto;
+        width: 90vw;
+    }
+    .features-title{
+        width: 90vw;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .cards{
+        display: flex;
+        justify-content: center;
+        margin: 30px auto;
+    }
+    .feature-card{
+        text-align: center;
+        cursor: pointer;
+    }
+    .feature-card p{
+        font-size: 10px;
+    }
+    .feature-card h5{
+        font-size: 12px;
+    }
+    .feature-card-img{
+        height: 50px;
+        width: 50px;
+    }
+    .confessions{
+        background-color: rgb(255,107,108);
+        height: 60vh;
+    }
+    .confessions-title{
+        margin: 0 70px;
+        padding:80px;
+    }
+    .confessions-title h3{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .track{
+        margin: 0 50px;
+        padding-top: 50px;
+    }
+    .track h3{
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .track p{
+        font-size: 10px;
+    }
+    .links{
+        display: flex;
+       text-align: center;
+       margin: 0;
+    }
+    .links a{
+        margin:0 5px;
+        font-size: 10px;
+    }
+}
